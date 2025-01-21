@@ -1,0 +1,4 @@
+lr: 0.04
+decay: 0.000005
+convs_batch: False
+is_GUIM: True

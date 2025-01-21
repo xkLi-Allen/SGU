@@ -1,0 +1,209 @@
+        #for arxiv SGC
+        # self.tau = 0.5
+        # self.para1 = 0.5
+        # self.para2 = 0.005
+        # self.para3 = 23
+        # self.para4 = 4
+        # self.para5 = 5
+
+
+        #for GUIM SGC 270nodes 2000budget
+        # self.tau = 0.5
+        # self.para1 = 0.5
+        # self.para2 = 0.005
+        # self.para3 = 150
+        # self.para4 = 4
+        # self.para5 = 15
+        # for GUIM S2GC 270nodes 2000budget
+        # self.tau = 0.5
+        # self.para1 = 0.5
+        # self.para2 = 0.006
+        # self.para3 = 100
+        # self.para4 = 8
+        # self.para5 = 15
+        
+        #for citeseer SGC
+        self.tau = 0.5
+        self.para1 = 0.8
+        self.para2 = 0.005
+        self.para3 = 150
+        self.para4 = 4
+        self.para5 = 15
+        #for citeseer S2GC
+        self.tau = 0.5
+        self.para1 = 0.5
+        self.para2 = 0.005
+        self.para3 = 200
+        self.para4 = 4
+        self.para5 = 10
+        #for citeseer SIGN
+        self.tau = 0.5
+        self.para1 = 0.8
+        self.para2 = 0.004
+        self.para3 = 200
+        self.para4 = 1.7
+        self.para5 = 25
+        #for citeseer GCN
+        self.tau = 0.5
+        self.para1 = 0.5
+        self.para2 = 0.006
+        self.para3 = 250
+        self.para4 = 2
+        self.para5 = 25
+        0.3 budget
+        
+        #for SAGE citeseer
+        self.tau = 0.5
+        self.para1 = 0.5
+        self.para2 = 0.005
+        self.para3 = 250
+        self.para4 = 14
+        self.para5 = 30
+        #for GAT citeseer
+        self.tau = 0.5
+        self.para1 = 0.8
+        self.para2 = 0.005
+        self.para3 = 250
+        self.para4 = 3.5
+        self.para5 = 20
+
+
+        ##CORA
+
+        ### GCN
+        self.tau = 0.5
+        self.para1 = 0.5
+        self.para2 = 0.005
+        self.para3 = 300
+        self.para4 = 4
+        self.para5 = 15
+
+        ###SAGE
+        self.tau = 0.5
+        self.para1 = 0.5
+        self.para2 = 0.005
+        self.para3 = 150
+        self.para4 = 3.5
+        self.para5 = 10
+
+        ###GIN
+        self.tau = 0.5
+        self.para1 = 0.5
+        self.para2 = 0.005
+        self.para3 = 150
+        self.para4 = 2.5
+        self.para5 = 10
+
+        ###GIN
+        self.tau = 0.5
+        self.para1 = 0.5
+        self.para2 = 0.005
+        self.para3 = 150
+        self.para4 = 2.5
+        self.para5 = 10
+
+        ###GAT
+        self.tau = 0.5
+        self.para1 = 0.5
+        self.para2 = 0.005
+        self.para3 = 200
+        self.para4 = 4
+        self.para5 = 10
+
+
+        ###SGC
+        self.tau = 0.5
+        self.para1 = 0.8
+        self.para2 = 0.06
+        self.para3 = 500
+        self.para4 = 0.5
+        self.para5 = 5
+
+        
+        ###S2GC
+        self.tau = 0.5
+        self.para1 = 0.5
+        self.para2 = 0.005
+        self.para3 = 175
+        self.para4 = 6
+        self.para5 = 10
+
+        ###SIGN
+        self.tau = 0.5
+        self.para1 = 0.8
+        self.para2 = 0.005
+        self.para3 = 500
+        self.para4 = 2.1
+        self.para5 = 10
+
+        ## citeseer
+        ###GCN
+        self.tau = 0.5
+        self.para1 = 0.8
+        self.para2 = 0.005
+        self.para3 = 200
+        self.para4 = 5
+        self.para5 = 10
+        ###SAGE
+        self.tau = 0.5
+        self.para1 = 0.8
+        self.para2 = 0.005
+        self.para3 = 300
+        self.para4 = 3
+        self.para5 = 15
+        ###GAT
+        self.tau = 0.5
+        self.para1 = 0.8
+        self.para2 = 0.005
+        self.para3 = 300
+        self.para4 = 2.5
+        self.para5 = 15
+        ###GIN
+        self.tau = 0.5
+        self.para1 = 0.8
+        self.para2 = 0.005
+        self.para3 = 300
+        self.para4 = 3.2
+        self.para5 = 15
+        ###SGC
+        self.tau = 0.5
+        self.para1 = 0.8
+        self.para2 = 0.005
+        self.para3 = 250
+        self.para4 = 8
+        self.para5 = 15
+
+        ###S2GC
+        self.tau = 0.5
+        self.para1 = 0.8
+        self.para2 = 0.005
+        self.para3 = 250
+        self.para4 = 7
+        self.para5 = 15
+
+        ##pubmed
+        ###GCN SAGE GAT GIN
+        self.tau = 0.5
+        self.para1 = 0.8
+        self.para2 = 0.005
+        self.para3 = 300
+        self.para4 = 2
+        self.para5 = 5
+
+        ###S2GC
+        self.tau = 0.5
+        self.para1 = 0.8
+        self.para2 = 0.004
+        self.para3 = 350
+        self.para4 = 2
+        self.para5 = 10
+
+
+        ###arxiv
+        ##GCN
+        self.tau = 0.5
+        self.para1 = 0.8
+        self.para2 = 0.004
+        self.para3 = 350
+        self.para4 = 2
+        self.para5 = 15
