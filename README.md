@@ -1,14 +1,14 @@
-# GUIM
+# SGU
 
 ### Introduction
 
-This code is the implementation of  GUIM
+This code is the implementation of  SGU
 
 ### Code Strcuture
 
 ```
 .
-├── GUIM
+├── SGU
 │   ├── config.py
 │   ├── data
 │   ├── dataset
